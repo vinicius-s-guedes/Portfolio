@@ -1,0 +1,200 @@
+
+.projectpage .btn{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #e74c3c;
+	font-size: 20px;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+
+.b1{
+    display: none;
+}
+
+.b2{
+    display: block;
+}
+
+
+.projectpage #box{
+	width: 70%;
+	height: 100%;
+	overflow: hidden;
+	left: 13.4%;
+
+	background: #f1f1f1;
+	box-shadow: 0 0 20px black;
+	border-radius: 8px;
+	position: absolute;
+	z-index: 9999;
+	padding: 10px;
+	text-align: center;
+}
+
+.projectpage #box span{
+	color: #2ecc71;
+	font-size: 40px;
+	display: block;
+	margin: 20px 0;
+}
+
+.projectpage #box h1{
+	color: #333;
+}
+
+.projectpage .closed{
+	font-size: 18px;
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	background: #3498db;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projectpage .octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+}
+
+
+
+.projectpage a {
+  background-color: initial;
+}
+
+.projectpage a:active,a:hover {
+  outline-width: 0;
+}
+
+.projectpage svg:not(:root) {
+  overflow: hidden;
+}
+
+.projectpage * {
+  box-sizing: border-box;
+}
+
+.projectpage body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff;
+}
+
+.projectpage a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.projectpage p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.projectpage ol,ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.projectpage ol{
+         justify-content: center;
+       align-items: center
+}
+
+.projectpage .octicon {
+  vertical-align: text-bottom;
+}
+
+.projectpage .Box {
+  background-color: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+}
+
+@media (min-width:768px) {
+
+  .projectpage .col-md-6 {
+    width: 50%;
+  }
+
+}
+
+.projectpage .gutter-condensed {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.projectpage .gutter-condensed>[class*=col-] {
+  padding-right: 33px!important;
+  padding-left: 33px!important;
+}
+
+.projectpage .text-gray {
+  color: #586069!important;
+}
+
+.projectpage .flex-wrap {
+  flex-wrap: wrap!important;
+}
+
+.projectpage .flex-items-center {
+  align-items: center!important;
+}
+
+.projectpage .width-full {
+  width: 100%!important;
+}
+
+.projectpage .mb-0 {
+  margin-bottom: 0!important;
+}
+
+
+.projectpage .mt-2 {
+  margin-top: 8px!important;
+}
+
+.projectpage .mr-2 {
+  margin-right: 8px!important;
+}
+
+.projectpage .mb-3 {
+  margin-bottom: 16px!important;
+}
+
+.projectpage .p-3 {
+  padding: 16px!important;
+}
+
+.projectpage .f6 {
+  font-size: 12px!important;
+}
+
+.projectpage .text-small {
+  font-size: 12px!important;
+}
+
+.projectpage .d-flex {
+  display: flex!important;
+}
